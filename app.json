@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "KickOut",
+    "slug": "Game",
+    "icon": "./assets/images/icon.png",
+    "android.adaptiveIcon.foregroundImage":"./assets/images/adaptive-icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.inoutapp.inoutapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "853e89dd-d66c-48d2-b064-8fcd6dc27d50"
+      }
+    },
+    "android": {
+      "package": "com.inoutapp.inoutapp"
+    }
+  }
+}
