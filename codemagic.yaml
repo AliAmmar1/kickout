@@ -25,7 +25,9 @@ workflows:
     scripts:
       - name : create ios
         script : |
-            mkdir ios
+            if [ ! -d "ios" ]; then
+                mkdir ios
+            fi
             cd ios
       - name: Install pods
         script: |
