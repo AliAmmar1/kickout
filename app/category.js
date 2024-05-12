@@ -182,13 +182,6 @@ const Category = () => {
       renderItem={renderItem} 
       keyExtractor={(item) => item.key}
     />
-    {/* <View  style={styles.Viewcontainer}>
-                <TouchableOpacity  >
-                    <Image style={styles.Imagecontainer}
-                    source={require('../assets/images/plus.png')}
-                    />
-                </TouchableOpacity>
-            </View> */}
       </ImageBackground>
     </SafeAreaView>
   );
