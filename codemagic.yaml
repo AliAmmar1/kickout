@@ -1,0 +1,11 @@
+workflows:
+    react-native:
+        name: iOS automatic code signing
+    environment:
+        vars:
+          XCODE_WORKSPACE: "swiftly.xcworkspace"
+          XCODE_SCHEME: "swiftly"
+        node: latest
+    scripts:
+        -npm install
+        
