@@ -23,8 +23,12 @@ workflows:
           include: true
           source: true
     scripts:
+      - name: Create ios directory
+        script: |
+          mkdir -p ios
       - name: Install pods
         script: |
+          cd ios
           pod install
       - name: Set up keychain to be used for codesigning using Codemagic CLI 'keychain' command
         script: |
