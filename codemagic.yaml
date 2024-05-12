@@ -23,12 +23,6 @@ workflows:
           include: true
           source: true
     scripts:
-      - name : create ios
-        script : |
-            if [ ! -d "ios" ]; then
-                mkdir ios
-            fi
-            cd ios
       - name: Install pods
         script: |
           pod install
